@@ -11,25 +11,21 @@
   <title>Resume - Adrian Grigorescu</title>
 
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="vendor/font-mfizz/font-mfizz-2.4.1/font-mfizz.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"> 
-
-  <link href="css/resume.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+  <link href="css/resume.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top">
 
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Adrian Grigorescu</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img\profile2.jpg" alt="profile-picture">
-      </span>
+      <span class="d-block d-lg-none"></span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -51,25 +47,29 @@
       </ul>
     </div>
   </nav>
+  <!-- end Navbar -->
 
   <div class="container-fluid p-0">
 
+    <!-- About -->
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
-        <h1 class="mb-0">Adrian
+        <h1 class="mb-0">
+          <span class="text-primary first-name-style">Adrian</span>
           <span class="text-primary">Grigorescu</span>
         </h1>
-        <div class="subheading mb-5">Jersey Channel Islands, 07704958965
+        <div class="subheading mb-5">07704958965
           <a href="mailto:Adrian.G87@hotmail.com">Adrian.G87@hotmail.com</a>
         </div>
         <p class="lead mb-5">
-          Enthusiastic Software Developer, started my journey by learning <span class="tech-stack-highlight">Python</span> and completed various Udemy courses about 
-          <span class="tech-stack-highlight">NumPy</span>, <span class="tech-stack-highlight">Pandas</span> and <span class="tech-stack-highlight">Flask</span>. 
-          Expanded my skill set by joining Digital Jersey Coding Course (coding bootcamp) where I have learned <span class="tech-stack-highlight">Ruby</span>, 
-          <span class="tech-stack-highlight">Ruby on Rails</span>,
-          <span class="tech-stack-highlight">JavaScript</span> and
-          <span class="tech-stack-highlight">MySQL</span>.
-          I have a keen interest in web technologies and databases and always looking to learn new languages, frameworks and technologies in order to further develop myself. 
+          Highly skilled software developer with 3 years of experience in delivering robust solutions using
+          <span class="tech-stack-highlight">.NET Core</span>,
+          <span class="tech-stack-highlight">Flutter</span>,
+          <span class="tech-stack-highlight">Django</span> and
+          <span class="tech-stack-highlight">SQL Servers</span> along many other technologies.
+          Adept at working within a team environment and collaborating with cross-functional teams to deliver software on time and within budget.
+          Proficient in troubleshooting and debugging, Agile development methodologies, Git, and experienced with Linux operating systems.
+          Continuously seeking opportunities to learn new technologies and industry trends to enhance development processes and improve the user experience.
         </p>
         <div class="social-icons">
           <a add target ='_blank' href="https://github.com/Adrian0012">
@@ -81,85 +81,104 @@
         </div>
       </div>
     </section>
+    <!-- end About -->
 
     <hr class="m-0">
 
+    <!-- Experience -->
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
         <h2 class="mb-5">Experience</h2>
-        
+        <!-- TODO spellcheck -->
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Software Developer</h3>
+            <h3 class="mb-0">Full Stack Software Developer</h3>
             <div class="d-flex justify-content-between">
               <div class="subheading mb-3">Codentia Ltd. Jersey, Channel Islands</div>
               <div class="resume-date text-md-right">
-                <span class="text-primary">April 2020 - present</span>
+                <span class="text-primary date-style">April 2020 - present</span>
               </div>
             </div>
             <p>
-              During the Covid-19 pandemic I have joined Codentia Ltd. where for 6 months I have been the primary developer for MeetMonty. Here I have
-              developed a Sales and Marketing CRM which helps business to automate sales processes and lead generation using
+              At the begining of Covid-19 pandemic I have joined Codentia Ltd. in order to support with the development of MeetMonty.
+              A CRM that enables business to automate their sales processes and lead generation using
               <span class="tech-stack-highlight">Django</span>,
               <span class="tech-stack-highlight">Django REST</span>,
-              <span class="tech-stack-highlight">JavaScript</span> and
+              <span class="tech-stack-highlight">JavaScript / jQuery</span> and
               <span class="tech-stack-highlight">PostgreSQL</span> technology stack.
-              As the project grew in complexity I have implemented and worked with various 3rd party API’s such as 
-              <span class="tech-stack-highlight">Google</span>,
+              As the project grew in complexity I have implemented various 3rd party API's such as
+              <span class="tech-stack-highlight">Google Calendar API</span>,
               <span class="tech-stack-highlight">MS Graph</span>,
               <span class="tech-stack-highlight">Twillio</span>,
-              <span class="tech-stack-highlight">MailGun</span>,
-              <span class="tech-stack-highlight">Zapier</span> and
-              <span class="tech-stack-highlight">AWS</span>.
-              <i class="fas fa-link mr-1"></i><a href="https://www.meetmonty.io/" target="_blank">MeetMonty</a>
+              <span class="tech-stack-highlight">MailGun</span> and
+              <span class="tech-stack-highlight">AWS S3 Storage</span>.
             </p>
 
-            <p>As the company's involvment with MeetMonty has finalized I started learning
-              <span class="tech-stack-highlight">C#</span> and
-              <span class="tech-stack-highlight">.NET Core</span>
-              whilst upgrading our internal
-              <span class="tech-stack-highlight">Slack API</span>
-              integration from
-              <span class="tech-stack-highlight">REST</span> to
-              <span class="tech-stack-highlight">GraphQL</span>
-              in order to continue our task automation and report generation.
-            </p>
+            <p>
+              <h4>Highlights:</h4>
+              <li class="custom-list-style">
+                <i class="fas fa-circle"></i>
+                Lead Developer - Jersey Post [ Address Management System / APIs ]
+              </li>
+              <h5>Technology Stack: .NET Core, JavaScript/jQuery, MSSQL, Various 3rd party APIs</h5>
+              <p>
+                <li class="custom-list-style">
+                  <ul>
+                    <i class="fas fa-minus"></i>
+                    Maintain and update all services in line with the client requirements
+                  </ul>
+                  <ul>
+                    <i class="fas fa-minus"></i>
+                    Develop new features, such as updating the current parcel system with eTags
+                  </ul>
+                  <ul>
+                    <i class="fas fa-minus"></i>
+                    Working very closely with the Head of ICT in order to better understand their internal systems and requirements
+                  </ul>
+                </li>
+              </p>
 
-            <p>For my next project I was designated as the primary developer to maintain and develop new features for a logistics CRM 
-              for Jersey Post to replace their current system that handles all postal services for the island.
-              On top of that update and create new endpoints for their API that handles customers, business and goverment services as requested. 
-              Manage all Support tickets for the CRM, API and data integrity across the systems using
-              <span class="tech-stack-highlight">.NET</span>,
-              <span class="tech-stack-highlight">.NET Core</span>,
-              <span class="tech-stack-highlight">JavaScript</span>,
-              <span class="tech-stack-highlight">MSSQL</span> technology stack
-              and various 3rd API's and tools such as
-              <span class="tech-stack-highlight">Google</span>,
-              <span class="tech-stack-highlight">Zebra Printer</span> and
-              <span class="tech-stack-highlight">Labelary</span>.
-            </p>
-
-            <p>Being part of Codentia enabled me to work on a wide range of projects from various clients such as
-              <i class="fas fa-link mr-1"></i><a href="https://aka.exchange/Home/Index" target="_blank">AKA Exchange</a>,
-              <i class="fas fa-link mr-1"></i><a href="https://handsetexpert.com/" target="_blank">HandsetExpert</a>
-              and
-              <i class="fas fa-link mr-1"></i><a href="https://www.xrm.je/" target="_blank">XRM</a>.
-              Also I got exposure to various technologies and tools such as Google Kubernetes Engine, BitBucket Pipelines CI/CD, .NET Core application deployments to IIS servers.
+              <li class="custom-list-style">
+                <i class="fas fa-circle"></i>
+                Lead Developer - Uniti [ 1 Mobile App / 2 Web Apps ]
+              </li>
+              <h5>Technology Stack: Flutter, Firebase, .NET Core, Various 3rd party APIs</h5>
+              <p>
+                <li class="custom-list-style">
+                  <ul>
+                    <i class="fas fa-minus"></i>
+                    Liaise with an oversees development team, set priorities and ensure that milestones are being achieved whilst managing the founders' expectations
+                  </ul>
+                  <ul>
+                    <i class="fas fa-minus"></i>
+                    Due to the scope of the project being updated I have been at the forefront of converting the applications architecture from NoSQL to RESTful
+                  </ul>
+                  <ul>
+                    <i class="fas fa-minus"></i>
+                    Develop new features and improve the applications according to the founders' requirements and user feedback
+                  </ul>
+                  <ul>
+                    <i class="fas fa-minus"></i>
+                    Working very closely with the founders' in order to understand and meet their goals and requirments
+                  </ul>
+                </li>
+              </p>
             </p>
           </div>
           <div class="resume-date text-md-right">
           </div>
         </div>
       </div>
-
     </section>
+    <!-- end Experience -->
 
     <hr class="m-0">
-    
+
+    <!-- Tech Stack -->
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="tech-stack">
       <div class="w-100">
         <h2 class="mb-5">Technology Stack</h2>
-     
+
           <div class="subheading">Database</div>
             <ul class="list-inline dev-icons">
               <li class="list-inline-item">
@@ -171,23 +190,30 @@
               <li class="list-inline-item">
                 <i class="devicon-microsoftsqlserver-plain-wordmark"></i>
               </li>
+              <li class="list-inline-item">
+                <i class="devicon-firebase-plain-wordmark"></i>
+              </li>
             </ul>
             <div class="subheading mb-3"></div>
             <ul class="fa-ul mb-0 m-0">
               <li>
-                <i class="fas fa-minus"></i>
+                <i class="fas fa-circle"></i>
                 MySQL
               </li>
               <li>
-                <i class="fas fa-minus"></i>
+                <i class="fas fa-circle"></i>
                 PostgreSQL
               </li>
               <li>
-                <i class="fas fa-minus"></i>
+                <i class="fas fa-circle"></i>
                 MicrosoftSQL Server
               </li>
+              <li>
+                <i class="fas fa-circle"></i>
+                Firebase
+              </li>
             </ul>
-    
+
           <div class="subheading mt-3">Frameworks</div>
           <ul class="list-inline dev-icons">
             <li class="list-inline-item">
@@ -197,28 +223,28 @@
               <i class="devicon-dotnetcore-plain"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicon-rails-plain-wordmark"></i>
+              <i class="devicon-flutter-plain"></i>
             </li>
           </ul>
           <ul class="fa-ul mb-0 m-0">
             <li>
-              <i class="fas fa-minus"></i>
+              <i class="fas fa-circle"></i>
               Django
             </li>
             <li>
-              <i class="fas fa-minus"></i>
+              <i class="fas fa-circle"></i>
               Django REST
             </li>
             <li>
-              <i class="fas fa-minus"></i>
+              <i class="fas fa-circle"></i>
               .NET Core
             </li>
             <li>
-              <i class="fas fa-minus"></i>
-              Ruby on Rails
+              <i class="fas fa-circle"></i>
+              Flutter
             </li>
           </ul>
-  
+
           <div class="subheading mt-3">Languages</div>
           <ul class="list-inline dev-icons">
             <li class="list-inline-item">
@@ -228,94 +254,149 @@
               <i class="devicon-csharp-plain-wordmark"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicon-javascript-plain"></i>
+              <i class="devicon-dart-plain-wordmark"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicon-ruby-plain-wordmark"></i>
+              <i class="devicon-javascript-plain"></i>
             </li>
           </ul>
           <ul class="fa-ul mb-0 m-0">
             <li>
-              <i class="fas fa-minus"></i>
+              <i class="fas fa-circle"></i>
               Python
             </li>
             <li>
-              <i class="fas fa-minus"></i>
+              <i class="fas fa-circle"></i>
               C#
             </li>
             <li>
-              <i class="fas fa-minus"></i>
-              JavaScript
+              <i class="fas fa-circle"></i>
+              Dart
             </li>
             <li>
-              <i class="fas fa-minus"></i>
-              Ruby
+              <i class="fas fa-circle"></i>
+              JavaScript/jQuery
             </li>
           </ul>
 
           <div class="subheading mt-3">Tools and Technologies</div>
           <ul class="list-inline dev-icons">
             <li class="list-inline-item">
-              <i class="devicon-ubuntu-plain-wordmark"></i>
+              <i class="devicon-linux-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-bash-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-googlecloud-plain-wordmark"></i>
             </li>
             <li class="list-inline-item">
               <i class="devicon-docker-plain-wordmark"></i>
             </li>
             <li class="list-inline-item">
+              <i class="devicon-redis-plain-wordmark"></i>
+            </li>
+            <li class="list-inline-item">
               <i class="devicon-git-plain-wordmark"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicon-heroku-original-wordmark"></i>            
+              <i class="devicon-heroku-original-wordmark"></i>
             </li>
           </ul>
           <ul class="fa-ul mb-0 m-0">
             <li>
-              <i class="fas fa-minus"></i>
-              Ubuntu/Linux
+              <i class="fas fa-circle"></i>
+              Linux
             </li>
             <li>
-              <i class="fas fa-minus"></i>
+              <i class="fas fa-circle"></i>
+              Bash
+            </li>
+            <li>
+              <i class="fas fa-circle"></i>
+              Google Cloud Services
+            </li>
+            <li>
+              <i class="fas fa-circle"></i>
               Docker
             </li>
             <li>
-              <i class="fas fa-minus"></i>
+              <i class="fas fa-circle"></i>
+              Redis
+            </li>
+            <li>
+              <i class="fas fa-circle"></i>
               Git
             </li>
             <li>
-              <i class="fas fa-minus"></i>
+              <i class="fas fa-circle"></i>
               Heroku
             </li>
           </ul>
       </div>
     </section>
+    <!-- end Tech Stack -->
 
     <hr class="m-0">
 
+    <!-- Education -->
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
         <h2 class="mb-5">Education</h2>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Digital Jersey Coding Course (coding bootcamp)</h3>
-            <div class="subheading mb-3">Web Development Program</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">July 2019 - December 2019</span>
-          </div>
-        </div>
-        <br><br>
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Henri Coanda Aviation Technical College </h3>
-            <div class='subheading mb-3'>Aircraft Construction, Aerodynamics</div>
+            <h3 class="mb-0">Google Cloud Associate Engineer</h3>
+            <div class="subheading mb-3">Google</div>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">November 2002 - June 2005</span>
+            <span class="text-primary date-style">In Progress</span>
           </div>
         </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Google Cloud Digital Leader</h3>
+            <div class="subheading mb-3">Google</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary date-style">PASS / Await Confirmation</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Google GCSM Sales</h3>
+            <div class="subheading mb-3">Google</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary date-style">September 2022</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Google Workspace: Deployment Services Specialist</h3>
+            <div class="subheading mb-3">Google</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary date-style">June 2022</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Web Development Bootcamp</h3>
+            <div class="subheading mb-3">Digital Jersey Academy</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary date-style">July 2019 - December 2019</span>
+          </div>
+        </div>
+
       </div>
     </section>
+    <!-- end Education -->
 
   </div>
 

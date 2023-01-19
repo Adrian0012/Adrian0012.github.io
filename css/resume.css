@@ -1,8 +1,8 @@
 body {
-  background-color: #f1f3f5;
+  background-color: #1b1821;
   font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   padding-top: 54px;
-  color: #868e96;
+  color: #f6eee3;
 }
 @media (min-width: 992px) {
   body {
@@ -19,7 +19,13 @@ h6 {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   text-transform: uppercase;
-  color: #35465d;
+  color: #f6eee3;
+}
+h2 {
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #d08504;
 }
 h1 {
   font-size: 6rem;
@@ -46,8 +52,8 @@ p.lead {
   display: inline-block;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #35465d;
-  color: #fff !important;
+  background-color: #f6eee3;
+  color: #1b1821 !important;
   border-radius: 100%;
   text-align: center;
   font-size: 1.5rem;
@@ -61,7 +67,7 @@ p.lead {
   background-color: #d08504;
 }
 .dev-icons {
-  color: #35465d;
+  color: #f6eee3;
   font-size: 3rem;
 }
 .dev-icons .list-inline-item i:hover {
@@ -137,13 +143,13 @@ section.resume-section .resume-item .resume-date {
   }
 }
 .bg-primary {
-  background-color: #35465d !important;
+  background-color: #1b1821 !important;
 }
 .text-primary {
   color: #d08504 !important;
 }
 a {
-  color: #35465d;
+  color: #f6eee3;
 }
 a:active,
 a:focus,
@@ -156,10 +162,30 @@ a:hover {
 .fa-link{
 color: #d08504;
 }
-.fa-minus{
-color: #35465d;
+.fa-circle {
+  color: #d08504;
+  font-size: 14px;
+}
+.fa-minus {
+  color: #d08504;
+  font-size: 14px;
 }
 .tech-stack-highlight {
-  color: #35465d;
+  color: #d08504;
   font-weight: bold;
+}
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+	color: #f6eee3;
+}
+section {
+  border-left: 1px solid #f6eee3;
+}
+.date-style {
+  font-size: 18px;
+}
+.first-name-style {
+  color: #f6eee3 !important;
+}
+.custom-list-style{
+  list-style: none;
 }
