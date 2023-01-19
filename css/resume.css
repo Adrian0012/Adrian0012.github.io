@@ -181,3 +181,6 @@ section {
 .first-name-style {
   color: #f6eee3 !important;
 }
+.custom-list-style{
+  list-style: none;
+}
